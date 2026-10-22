@@ -85,7 +85,7 @@ workstation:  Windows 11 Pro + Ubuntu 22.04 LTS (Server / HPC)
 
 ---
 
-### 🔬 `> ACTIVE RESEARCH VECTORS`
+### 🔬 `> ACTIVE RESEARCH`
 
 | Vector | Focus Area | Status | Deliverable |
 | :--- | :--- | :---: | :--- |
@@ -93,25 +93,6 @@ workstation:  Windows 11 Pro + Ubuntu 22.04 LTS (Server / HPC)
 | **Hybrid Retrieval Architectures** | Dense (FAISS) + Sparse (BM25) fusion via Reciprocal Rank Fusion (RRF) for domain QA. | ![Experimental](https://img.shields.io/badge/Status-Experimental-8b5cf6?style=flat-square) | Peer-review preprint & benchmark report |
 | **Edge AI Inference Optimization** | Quantization (INT8/INT4) and weight-pruning on consumer-grade GPUs. | ![Targeting <50ms](https://img.shields.io/badge/Target-%3C50ms_Latency-06b6d4?style=flat-square) | TensorRT / ONNX Runtime deployment package |
 | **Repository Intelligence Engine** | AST parsing & graph analysis for commit patterns and automated code health. | ![Research](https://img.shields.io/badge/Status-Prototyping-10b981?style=flat-square) | Open-source CI health analyzer tool |
-
----
-
-### ⚙️ `> OPERATING PRINCIPLES`
-
-> #### 🎯 **01. Reproducibility First**
-> Every experiment and pipeline must be re-runnable from a clean state. Seed everything, pin dependencies, version datasets, and automate validation suites.
->
-> #### ⚡ **02. Performance is an Architectural Feature**
-> Latency is not an afterthought. Profile before optimizing, minimize memory allocations, and design systems with mechanical sympathy.
->
-> #### 🧩 **03. Clean Architecture is Non-Negotiable**
-> Maintain clear abstraction boundaries, high cohesion, and loose coupling. Code that cannot be understood or tested cannot be reliably maintained.
->
-> #### 🌐 **04. Open-Source Ecosystem Commitment**
-> Share tooling, contribute upstream, provide thorough documentation, and engineer solutions that empower the broader community.
->
-> #### 🔄 **05. Rapid Iteration & Continuous Deployment**
-> Ship production-tested drafts early, collect empirical telemetry, and iterate relentlessly. A validated prototype in production beats speculative perfection.
 
 ---
 
